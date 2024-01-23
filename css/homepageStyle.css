@@ -22,7 +22,7 @@ main .landing-page{
     margin-top: 3rem;
 }
 
-main .landing-page h2, p{
+main .landing-page h2, main .landing-page p{
     margin: 0.8rem 0.3rem;
     text-align: center;
 }
@@ -48,6 +48,7 @@ main .landing-page img{
 
 @media only screen and (max-width: 650px){
     main .landing-page img{
+        margin-top: 1.5rem;
         width: 400px;
     }
 }
@@ -56,6 +57,9 @@ main .landing-page img{
     main{
         margin-top: 0;
     }
+    main .landing-page{
+        margin-top: 1rem;
+    } 
     main .landing-page h2{
         font-size: 1rem;
     }
@@ -65,12 +69,17 @@ main .landing-page img{
     }
 
     main .landing-page img{
+        margin-top: 1.5rem;
         width: 300px;
     }  
 }
 
 @media only screen and (max-width: 300px){
     main .landing-page img{
+        margin-top: 1.5rem;
         width: 230px;
-    }  
+    } 
+    main .landing-page{
+        margin-top: 1rem;
+    } 
 }
