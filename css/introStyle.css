@@ -1,0 +1,48 @@
+.intro{
+    background-color: #141c3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.intro h3, .intro p{
+    background-color: #141c3a;
+    color: white;
+    width: 50%;   
+}
+
+.intro h3{
+    font-size: 2rem;
+}
+
+.intro p{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 880px){
+    .intro h3{
+        font-size: 1.7rem;
+    }
+    .intro p{
+        font-size: 1.2rem;
+    }
+    .intro h3, .intro p{
+        width: 80%;   
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .intro h3{
+        font-size: 1.4rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    .intro h3, .intro p{
+        width: 90%;   
+    }
+}

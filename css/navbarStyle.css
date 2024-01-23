@@ -1,10 +1,13 @@
+:root{
+    --navcolor: #141c3a;
+    --bgcolor : lavender;
+}
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lavender;
-    width: 100vw;
+    background-color: var(--bgcolor);
     padding: 0 4rem;
     height: 6rem;
 }
@@ -13,7 +16,7 @@ header{
     font-weight: bold;
     font-size: 1.5rem;
     cursor: pointer;
-    color: seagreen;
+    color: var(--navcolor);
 }
 
 .hamburger{
@@ -24,7 +27,7 @@ header{
     height: 3px;
     width: 20px;
     margin: 5px 0;
-    background-color: seagreen;
+    background-color: var(--navcolor);
     border-radius: 40px;
 }
 
@@ -40,20 +43,20 @@ header{
     text-decoration: none;
     padding: 5px 7px;
     cursor: pointer;
-    color: seagreen;
+    color: var(--navcolor);
     transition: all 0.5s ease-in-out 0s;
 }
 
 .navbar ul li a:hover{
-    color: whitesmoke;
-    background-color: seagreen;
+    color: var(--bgcolor);
+    background-color: var(--navcolor);
     border-radius: 50px;
     transform: scale(1.2);
 }
 
 .navbar ul li a.active{
-    color: whitesmoke;
-    background-color: seagreen;
+    color: var(--bgcolor);
+    background-color: var(--navcolor);
     border-radius: 50px;
     margin-right: 5px;
 }
@@ -71,7 +74,7 @@ header{
         right: 0;
         left: 0;
         overflow: hidden;
-        background-color: lavender;
+        background-color:var(--bgcolor);
         height: 0;
         transition: 0.5s;
     }

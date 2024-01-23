@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lavender;
+    color: #141c3a;
+}
+
+main{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    background-color: lavender;
+    flex-direction: column;
+}
+
+main .landing-page{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+main .landing-page h2, p{
+    margin: 0.8rem 0.3rem;
+    text-align: center;
+}
+
+main .landing-page h2{
+    font-size: 2rem;
+}
+
+main .landing-page p{
+    font-size: 24px;
+}
+
+main .landing-page img.hero-img-1{
+    margin-top: 2rem;
+}
+
+main .landing-page img.hero-img-2{
+    width: 630px;
+}
+
+@media only screen and (max-width: 660px){
+    main .landing-page img.hero-img-1{
+        width: 250px;
+    }
+    main .landing-page img.hero-img-2{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    main{
+        margin-top: 0;
+    }
+    main .landing-page h2{
+        font-size: 1rem;
+    }
+    main .landing-page p{
+        font-size: 18px;
+    }
+
+    main .landing-page p{
+        margin: 0 0.8rem;
+    }
+
+    main .landing-page img.hero-img-1{
+        width: 200px;
+    }
+    main .landing-page img.hero-img-2{
+        width: 270px;
+    }
+}
