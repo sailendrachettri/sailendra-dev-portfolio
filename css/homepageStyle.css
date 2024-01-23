@@ -35,20 +35,20 @@ main .landing-page p{
     font-size: 24px;
 }
 
-main .landing-page img.hero-img-1{
-    margin-top: 2rem;
+main .landing-page img{
+    width: 950px;
 }
 
-main .landing-page img.hero-img-2{
-    width: 630px;
-}
 
-@media only screen and (max-width: 660px){
-    main .landing-page img.hero-img-1{
-        width: 250px;
+@media only screen and (max-width: 985px){
+    main .landing-page img{
+        width: 600px;
     }
-    main .landing-page img.hero-img-2{
-        width: 440px;
+}
+
+@media only screen and (max-width: 650px){
+    main .landing-page img{
+        width: 400px;
     }
 }
 
@@ -61,16 +61,16 @@ main .landing-page img.hero-img-2{
     }
     main .landing-page p{
         font-size: 18px;
-    }
-
-    main .landing-page p{
         margin: 0 0.8rem;
     }
 
-    main .landing-page img.hero-img-1{
-        width: 200px;
-    }
-    main .landing-page img.hero-img-2{
-        width: 270px;
-    }
+    main .landing-page img{
+        width: 300px;
+    }  
+}
+
+@media only screen and (max-width: 300px){
+    main .landing-page img{
+        width: 230px;
+    }  
 }
