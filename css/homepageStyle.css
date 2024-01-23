@@ -29,6 +29,7 @@ main .landing-page h2, main .landing-page p{
 
 main .landing-page h2{
     font-size: 2rem;
+    padding: 0 1rem;
 }
 
 main .landing-page p{
@@ -61,7 +62,7 @@ main .landing-page img{
         margin-top: 1rem;
     } 
     main .landing-page h2{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     main .landing-page p{
         font-size: 18px;

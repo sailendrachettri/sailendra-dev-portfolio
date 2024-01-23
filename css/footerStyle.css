@@ -1,0 +1,55 @@
+:root{
+    --bg-color: #141c3a;
+    --text-color: lavender;
+}
+
+footer {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: var(--bg-color);
+}
+
+footer h3{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+footer p{
+    margin: 1rem 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+footer div{
+    background-color: var(--bg-color);
+}
+
+footer .icons{
+    margin: 3rem 0;
+}
+
+footer img{
+    margin: 0 0.2rem;
+    cursor: pointer;
+    width: 50px;
+    background-color: var(--bg-color);
+}
+
+footer .copyright{
+    color: var(--text-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer .year{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
