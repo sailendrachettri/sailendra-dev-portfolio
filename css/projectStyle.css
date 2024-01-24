@@ -44,10 +44,12 @@
 
 .project-box div h4{
     margin: 10px 0;
+    text-transform: capitalize;
 }
 
 .project-box div p{
     padding: 0 1rem 1rem 1rem;
+    text-align: justify;
 }
 
 .project-box div img{
