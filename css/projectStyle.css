@@ -31,8 +31,11 @@
     margin-top: 4rem;
 }
 
-.project-box div{
-    position: relative;
+.project-box a{
+    text-decoration: none;
+}
+
+.project-box a{
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -52,19 +55,20 @@
     text-align: justify;
 }
 
-.project-box div img{
-    height: 300px;
+.project-box img{
+    height: auto;
+    width: 100%;
     border-radius: 5px;
 }
 
 @media only screen and (max-width: 800px){
-    .project-box div{
+    .project-box a{
         width: 45%;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .project-box div{
+    .project-box a{
         width: 90%;
     }
 }
