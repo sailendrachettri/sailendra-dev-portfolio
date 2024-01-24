@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Quicksand:wght@300;400;700&display=swap');
+
+:root{
+    --header-font: 'Merriweather';
+    --para-font: 'Quicksand';
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +12,15 @@
     background-color: lavender;
     color: #141c3a;
 }
+
+h1, h2, h3, h4{
+    font-family: var(--header-font);
+}
+
+p, div{
+    font-family: var(--para-font);
+}
+
 
 main{
     display: flex;
