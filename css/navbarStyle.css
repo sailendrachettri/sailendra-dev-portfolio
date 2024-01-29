@@ -19,6 +19,10 @@ header{
     color: var(--navcolor);
 }
 
+.logo .text-logo{
+    width: 60px;
+}
+
 /* header .logo-header{
 
 } */
@@ -65,7 +69,7 @@ header{
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 650px){
     header{
         padding: 0 30px;
     }

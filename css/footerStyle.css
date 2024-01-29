@@ -19,7 +19,7 @@ footer h3{
     font-size: 2rem;
 }
 
-footer .logo-footer{
+footer .logo{
     background-color: var(--bg-color);
     color: var(--text-color);
 }

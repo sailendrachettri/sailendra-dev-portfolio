@@ -1,0 +1,28 @@
+.design-section{
+    width: 100%; 
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-section h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.design-section p{
+    margin: 1rem 0;
+}
+
+.designs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.designs img{
+    margin: 2rem;
+    width: 180px;
+}
