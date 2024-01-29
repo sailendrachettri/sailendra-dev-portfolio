@@ -23,6 +23,13 @@
 }
 
 .designs img{
-    margin: 2rem;
+    margin: 1.5rem;
     width: 180px;
+}
+
+@media (max-width:550px){
+    .designs img{
+        width: 130px;
+        margin: 0.9rem;
+    }
 }
