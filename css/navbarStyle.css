@@ -23,12 +23,9 @@ header{
     width: 60px;
 }
 
-/* header .logo-header{
-
-} */
-
 .hamburger{
     display: none;
+    cursor: pointer;
 }
 
 .hamburger .line{
