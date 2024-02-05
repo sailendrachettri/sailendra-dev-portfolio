@@ -1,9 +1,9 @@
 
-# PROTFOLIO SAILENDRA - Dev portfolio for sailendra
+# PROTFOLIO SAILENDRA - Developer Portfolio For Sailendra
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JAVASCRIPT
+**Client:** HTML, CSS, JAVASCRIPT, Google Fonts
 
 **Design:** CSS
 
@@ -42,11 +42,8 @@ Start the Server
   Run with live server
 ```
 
-# New features ideas
-N/A
-
-# Features of the app
-N/A
+# New section to be added
+- Add a blog section (dev)
 
 # Screenshots
 <p><img src="https://drive.google.com/uc?export=view&id=1SSC2OirQhpbLov9KHRgFC__PpPby9PUB" alt="Front page"></p>
