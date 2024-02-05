@@ -27,6 +27,25 @@
     width: 180px;
 }
 
+.design-section button{
+    margin-top: 5rem;
+    padding: 5px 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 3px 1px whitesmoke;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+.design-section a{
+    text-decoration: none;
+}
+
+.design-section button:hover{
+    transform: scale(1.1);
+}
+
 @media (max-width:550px){
     .designs img{
         width: 130px;

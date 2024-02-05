@@ -35,3 +35,10 @@ main a img{
     padding: 10px;
     width: 150px;
 }
+
+
+@media (max-width: 460px){
+    main a img{
+        width: 117px;
+    }
+}
