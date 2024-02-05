@@ -2,6 +2,8 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
@@ -20,8 +22,6 @@ main .graphics-intro{
 main .graphics-intro h1{
     margin: 1rem 0;
     font-family: var(--header-font);
-    /* --header-font: 'Merriweather';
-    --para-font: 'Quicksand'; */
 }
 
 main .graphics-intro p{
@@ -29,8 +29,12 @@ main .graphics-intro p{
     font-size: 1.2rem;   
     text-align: justify;
 }
+main .graphics-intro p a{
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
 
-.container a{
+.container .logo-box{
     border: 1px solid whitesmoke;
     cursor: pointer;
     border-radius: 5px;

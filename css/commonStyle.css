@@ -26,3 +26,23 @@ p, div{
     font-family: var(--para-font);
     color: var(--text-color-dark);
 }
+
+
+.large-button button{
+    margin-top: 5rem;
+    padding: 5px 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 3px 1px whitesmoke;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+.large-button button:hover{
+    transform: scale(1.1);
+}
+
+.large-button a{
+    text-decoration: none;
+}
