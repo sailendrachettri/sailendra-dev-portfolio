@@ -3,13 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lavender;
 }
 
 /* CSS VARIABLES */
 :root{
     --border-color: #141c3a;
-    --navcolor: #141c3a;
-    --bgcolor : lavender;
+    --navbar-bg-color: lavender;
+    --bg-color : #141c3a;
+    --text-color: whitesmoke;
+    --text-color-dark: #141c3a;
     --header-font: 'Merriweather';
     --para-font: 'Quicksand';
 }
@@ -21,4 +24,5 @@ h1, h2, h3, h4{
 
 p, div{
     font-family: var(--para-font);
+    color: var(--text-color-dark);
 }
