@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
 main{
     width: 100%;
     display: flex;
@@ -12,11 +6,28 @@ main{
 
 .container{
     padding: 3rem 0.4rem;
+    gap: 1rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     justify-content: center;
     width: 70%;
+}
+
+main .graphics-intro{
+    margin: 1rem 0 3rem 0;
+}
+
+main .graphics-intro h1{
+    margin: 1rem 0;
+    font-family: var(--header-font);
+    /* --header-font: 'Merriweather';
+    --para-font: 'Quicksand'; */
+}
+
+main .graphics-intro p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;   
+    text-align: justify;
 }
 
 .container a{

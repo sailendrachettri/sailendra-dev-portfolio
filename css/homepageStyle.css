@@ -1,27 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Quicksand:wght@300;400;700&display=swap');
-
-:root{
-    --header-font: 'Merriweather';
-    --para-font: 'Quicksand';
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: lavender;
-    color: #141c3a;
-}
-
-h1, h2, h3, h4{
-    font-family: var(--header-font);
-}
-
-p, div{
-    font-family: var(--para-font);
-}
-
-
 main{
     display: flex;
     margin-top: 3rem;
@@ -99,4 +75,187 @@ main .landing-page img{
     main .landing-page{
         margin-top: 1rem;
     } 
+}
+
+/* --------------------------INTRO PART STARTED-------------------------- */
+.intro{
+    background-color: #141c3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 60vh;
+    padding: 2rem 0;
+}
+
+.intro h3, .intro p{
+    background-color: #141c3a;
+    color: white;
+    width: 50%;   
+}
+
+.intro h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 9px 0;
+    line-height: 1.7rem;
+}
+
+@media only screen and (max-width: 880px){
+    .intro h3{
+        font-size: 1.7rem;
+    }
+    .intro p{
+        font-size: 1.2rem;
+    }
+    .intro h3, .intro p{
+        width: 80%;   
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .intro h3{
+        font-size: 1.4rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    .intro h3, .intro p{
+        width: 90%;   
+    }
+}
+
+/* -------------------------PROJECTS SECTION STARTED------------------------- */
+.projects{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.projects h3{
+    font-size: 2rem;
+}
+
+.projects .para{
+    width: 80%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.project-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.project-box a{
+    text-decoration: none;
+}
+
+.project-box a{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+    box-shadow: 2px 2px 5px var(--border-color);
+}
+
+.project-box div h4{
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.project-box div p{
+    padding: 0 1rem 1rem 1rem;
+    text-align: justify;
+}
+
+.project-box img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px){
+    .project-box a{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .project-box a{
+        width: 90%;
+    }
+}
+
+/* -------------------------HOMEPAGE GRAPHICS SECTION------------------------- */
+.design-section{
+    width: 100%; 
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-section h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.design-section p{
+    margin: 1rem 0;
+}
+
+.designs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.designs img{
+    margin: 1.5rem;
+    width: 180px;
+}
+
+.design-section button{
+    margin-top: 5rem;
+    padding: 5px 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 3px 1px whitesmoke;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+.design-section a{
+    text-decoration: none;
+}
+
+.design-section button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:550px){
+    .designs img{
+        width: 130px;
+        margin: 0.9rem;
+    }
 }
