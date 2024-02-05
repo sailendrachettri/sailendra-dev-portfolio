@@ -1,12 +1,4 @@
-main{
-    display: flex;
-    margin-top: 3rem;
-    justify-content: center;
-    background-color: lavender;
-    flex-direction: column;
-}
-
-main .landing-page{
+.landing-page{
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -14,65 +6,62 @@ main .landing-page{
     margin-top: 3rem;
 }
 
-main .landing-page h2, main .landing-page p{
+.landing-page h2, main .landing-page p{
     margin: 0.8rem 0.3rem;
     text-align: center;
 }
 
-main .landing-page h2{
+.landing-page h2{
     font-size: 2rem;
     padding: 0 1rem;
 }
 
-main .landing-page p{
+.landing-page p{
     font-size: 24px;
 }
 
-main .landing-page img{
+.landing-page img{
     width: 950px;
 }
 
 
 @media only screen and (max-width: 985px){
-    main .landing-page img{
+    .landing-page img{
         width: 600px;
     }
 }
 
 @media only screen and (max-width: 650px){
-    main .landing-page img{
+    .landing-page img{
         margin-top: 1.5rem;
         width: 400px;
     }
 }
 
 @media only screen and (max-width: 480px){
-    main{
-        margin-top: 0;
-    }
-    main .landing-page{
+    .landing-page{
         margin-top: 1rem;
     } 
-    main .landing-page h2{
+    .landing-page h2{
         font-size: 1.5rem;
     }
-    main .landing-page p{
+    .landing-page p{
         font-size: 18px;
         margin: 0 0.8rem;
     }
 
-    main .landing-page img{
+    .landing-page img{
         margin-top: 1.5rem;
         width: 300px;
     }  
 }
 
 @media only screen and (max-width: 300px){
-    main .landing-page img{
+    .landing-page img{
         margin-top: 1.5rem;
         width: 230px;
     } 
-    main .landing-page{
+    .landing-page{
         margin-top: 1rem;
     } 
 }
@@ -207,7 +196,7 @@ main .landing-page img{
 /* -------------------------HOMEPAGE GRAPHICS SECTION------------------------- */
 .design-section{
     width: 100%; 
-    margin: 5rem 0;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
