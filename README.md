@@ -44,6 +44,7 @@ Start the Server
 
 # New section to be added
 - Add a blog section (dev)
+- Trim project description 
 
 # Screenshots
 <p><img src="https://drive.google.com/uc?export=view&id=1SSC2OirQhpbLov9KHRgFC__PpPby9PUB" alt="Front page"></p>
