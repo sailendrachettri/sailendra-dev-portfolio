@@ -151,17 +151,12 @@
     margin-top: 4rem;
 }
 
-/* .project-container .project-box{
-    text-decoration: none;
-} */
-
 .project-container .project-box{
     width: 30%;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 10px;
-    justify-content: center;
     box-shadow: 2px 2px 5px var(--border-color);
 }
 
@@ -176,7 +171,7 @@
 }
 
 .project-container .project-box img{
-    height: auto;
+    max-height: 200px;
     width: 100%;
     border-radius: 5px;
 }
