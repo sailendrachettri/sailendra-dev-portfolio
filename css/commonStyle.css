@@ -6,7 +6,7 @@
     background-color: lavender;
 }
 
-/* CSS VARIABLES */
+/* ---------------------------CSS VARIABLES ---------------------------*/
 :root{
     --border-color: #141c3a;
     --navbar-bg-color: lavender;
@@ -56,4 +56,14 @@ p, div{
 
 .large-button a{
     text-decoration: none;
+}
+
+.viwe-project-btn button{
+    cursor: pointer;
+    padding: 5px 13px;
+    margin: 1rem 0;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: var(--text-color-dark);
 }
