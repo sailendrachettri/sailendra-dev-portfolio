@@ -171,9 +171,19 @@
 }
 
 .project-container .project-box img{
-    max-height: 200px;
+    height: auto;
     width: 100%;
     border-radius: 5px;
+}
+
+.project-container .project-box .btn-and-update{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px;
+}
+.btn-and-update p{
+    color: rgb(161, 161, 190);
 }
 
 @media only screen and (max-width: 800px){
