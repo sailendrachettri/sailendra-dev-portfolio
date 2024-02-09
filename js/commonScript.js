@@ -1,4 +1,4 @@
-// SETTING THE DATE AND TIME FOR PROJECT UPDATION
+// -----------------------------SETTING THE DATE AND TIME FOR PROJECT UPDATION-------------------------
 let projectGkSite = document.getElementById("project-gk-site");
 projectGkSite.innerText = "Dec 2023";
 let projectTextAnalyzer = document.getElementById("project-text-analyzer");
