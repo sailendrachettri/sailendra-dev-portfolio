@@ -47,11 +47,33 @@ p, div{
     border: 1px solid whitesmoke;
     box-shadow: 2px 2px 3px 1px whitesmoke;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 .large-button button:hover{
     transform: scale(1.1);
+    animation: colorBtn 1s ease-in-out infinite alternate-reverse;  
+}
+@keyframes colorBtn{
+    0%{
+        border-color: rebeccapurple;
+        box-shadow: 2px 2px 4px 2px rebeccapurple;  
+    }
+    30%{
+        border-color: rgb(132, 33, 231);
+        
+    }
+    60%{
+        border-color: rgb(39, 189, 89);
+        
+    }
+    80%{
+        border-color: rgb(70, 221, 39);
+        
+    }
+    100%{
+        border-color: rgb(143, 19, 87);
+    }
 }
 
 .large-button a{
@@ -65,5 +87,11 @@ p, div{
     border: 1px solid whitesmoke;
     border-radius: 5px;
     font-size: 1.3rem;
-    color: var(--text-color-dark);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: all 0.2s ease-in-out 0s; 
+}
+
+.viwe-project-btn button:hover{
+    transform: scale(1.1);
 }
