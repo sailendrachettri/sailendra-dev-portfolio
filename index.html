@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <meta lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/x-icon" href="./imgs/favicon_io/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon_io/favicon-16x16.png">
-<link rel="manifest" href="./imgs/favicon_io/site.webmanifest">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./imgs/favicon_io/site.webmanifest">
 
-<link rel="stylesheet" href="./css/commonStyle.css" />
-<link rel="stylesheet" href="./css/footerStyle.css" />
-<link rel="stylesheet" href="./css/navbarStyle.css" />
-<link rel="stylesheet" href="./css/homepageStyle.css" />
+    <link rel="stylesheet" href="./css/commonStyle.css" />
+    <link rel="stylesheet" href="./css/footerStyle.css" />
+    <link rel="stylesheet" href="./css/navbarStyle.css" />
+    <link rel="stylesheet" href="./css/homepageStyle.css" />
 
-<title>Portfolio - Sailendra Chettri</title>
+    <title>Portfolio - Sailendra Chettri</title>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="mailto:sailendra9083@gmail.com" class="active">Email</a></li>
-                <li><a href="https://github.com/sailendrachettri">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="https://www.linkedin.com/in/sailendrachettri/">LinkedIn</a></li>
                 <li><a href="https://twitter.com/sailendrz">Twitter</a></li>
             </ul>
@@ -53,11 +54,25 @@
                 year 2023.</p>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects"> 
             <h3>My Recent projects</h3>
             <p class="para">Everything I build or worked on as of now</p>
 
             <div class="project-container">
+                <div class="project-box">
+                    <img src="./imgs/projectImages/07travel.jpg" alt="General knowledge">
+                    <h4 class="project-title">Gangtok Travellers - A tourse and traverls website to book a tour across sikkim</h4>
+                    <p class="project-description">The application is designed for individuals seeking a hassle-free travel experience in Sikkim. It's the perfect platform to book your destination in the beautiful region of Sikkim.</p>
+
+                    <div class="btn-and-update">
+                        <a href="https://gangtok-travellers.netlify.app/" target="_blank" class="viwe-project-btn">
+                            <button>See Dome</button>
+                        </a>
+
+                        <p>Last updated: <span id="project-gangtok-travellers"></span></p>
+                    </div>
+                </div>
+
                 <div class="project-box">
                     <img src="./imgs/projectImages/00generalknowledge.jpg" alt="General knowledge">
                     <h4 class="project-title">GK Site - Learn something new each day</h4>

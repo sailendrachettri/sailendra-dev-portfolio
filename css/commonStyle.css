@@ -6,6 +6,10 @@
     background-color: lavender;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* ---------------------------CSS VARIABLES ---------------------------*/
 :root{
     --border-color: #141c3a;

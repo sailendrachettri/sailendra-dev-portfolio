@@ -15,6 +15,8 @@ let projectAlphanews = document.getElementById("project-alphanews");
 projectAlphanews.innerText = "Oct 2023";
 let projectWinOverCrush = document.getElementById("project-win-over-crush");
 projectWinOverCrush.innerText = "Feb 2024";
+let gangtokTravellers = document.getElementById("project-gangtok-travellers");
+gangtokTravellers.innerText = "Jan 2024";
 
 
 
